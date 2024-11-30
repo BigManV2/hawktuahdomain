@@ -107,6 +107,14 @@ function VSMwdtd()
         }
     }
 end
+vsm:button{
+	Name = "Reload",
+	Description = nil,
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigManV2/hawktuahdomain/refs/heads/main/brook.lua"))()
+	end
+
+}
 
 -- Road Rage Section START (rrs)
 local isRRSon = false
@@ -200,6 +208,14 @@ function RRSrun()
         wait(0.1)
     end
 end
+rrs:button{
+	Name = "Reload",
+	Description = nil,
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigManV2/hawktuahdomain/refs/heads/main/brook.lua"))()
+	end
+
+}
 -- Road Rage Section END
 
 
